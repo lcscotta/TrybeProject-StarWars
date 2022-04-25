@@ -13,7 +13,7 @@
   Não encontrei o nome do autor.
   Link para referência:
   https://nerdizmo.uai.com.br/20-belos-e-artisticos-wallpapers-de-star-wars-para-baixar/ */
-  background-image: url('https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2021/05/wallpapers-do-star-wars-01.jpg?ssl=1');
+  background-image: url('https://bit.ly/3K8yPgF');
   color: white;
   height: 100vh;
   overflow-y: auto;
@@ -31,15 +31,15 @@
 
 .tableBody {
   background-color: rgba(0, 0, 0, 0.507);
-  }
+}
 
 .headTable {
-  background-color: rgba(71, 93, 124, 0.521);
   align-items: center;
+  background-color: rgba(71, 93, 124, 0.521);
   border-radius: 10px;
   display: flex;
-  padding: 15px;
   justify-content: space-evenly;
+  padding: 15px;
   margin: 18px;
 }
 
@@ -52,8 +52,8 @@
 
 input, button, select {
   background-color: rgba(255, 255, 255, 0.137);
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
   box-sizing: border-box;
   color: white;
   font-size: 12px;
