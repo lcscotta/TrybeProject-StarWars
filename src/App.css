@@ -1,41 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  background-color: rgba(23, 1, 1, 0.178);
+}
+
 .App {
+  /* Wallpaper utilizado foi retirado do site 'Nerdizmo'. Não encontrei o nome do autor.
+  Link para referência: https://nerdizmo.uai.com.br/20-belos-e-artisticos-wallpapers-de-star-wars-para-baixar/ */
+  background-image: url('https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2021/05/wallpapers-do-star-wars-01.jpg?ssl=1');
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filterone {
+  justify-content: space-between;
+  width: 80vw;
 }
 
-@media ( prefers-reduced-motion : no-preference ) {
+.tableHead {
+  background-color: rgb(31, 4, 4);
+}
 
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.tableBody {
+  background-color: rgba(0, 0, 0, 0.507);
   }
+
+  .headTable {
+    background-color: rgba(71, 93, 124, 0.521);
+    border-radius: 10px;
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 18px;
+    padding: 10px;
+  }
+  
+  .starwars {
+    color: black;
+    font-size: 60px;
+    margin: 0 auto;
+    text-shadow: -1px -1px 0 white , -1px 1px 0 white , 1px -1px 0 white , 1px 0 0 white;
+  }
+
+  input, button, select {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    font-size: 12px;
+    text-align: justify;
+    padding: 3px;
+    width: 93px;
+    font-size: 12px;
 }
 
-.App-header {
-  align-items: center;
-  background-color: #282c34;
+select {
+  background-color: rgba(255, 0, 0, 0);
+  border-bottom: 3px solid white;
+  border-left: none;
+  border-radius: 5px;
+  border-right: none;
+  border-top: none;
+  box-sizing: border-box;
   color: white;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  justify-content: center;
-  min-height: 100vh;
+  padding: 3px;
+  width: 93px;
 }
 
-.App-link {
-  color: #61dafb;
+option {
+  color: black;
 }
 
-@keyframes App-logo-spin {
+input:hover, select:hover, button:hover {
+  border: 1px solid white;
+}
 
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.tbody {
+  font-size: 14px;
+  height: 70vh;
+  overflow-y: scroll;
+  width: 100vw;
 }
