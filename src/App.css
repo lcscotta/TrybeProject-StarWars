@@ -12,7 +12,7 @@
   /* Wallpaper utilizado foi retirado do site 'Nerdizmo'.
   Não encontrei o nome do autor.
   Link para referência:
-  https://nerdizmo.uai.com.br/20-belos-e-artisticos-wallpapers-de-star-wars-para-baixar/ */
+  https://bit.ly/3y6Golq */
   background-image: url('https://bit.ly/3K8yPgF');
   color: white;
   height: 100vh;
@@ -39,8 +39,8 @@
   border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
-  padding: 15px;
   margin: 18px;
+  padding: 15px;
 }
 
 .starwars {
