@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Table from './components/Table';
 import { ProviderPlanets } from './context/ContextPlanets';
 import SearchPlanets from './components/SearchPlanets';
 import FilterNumbers from './components/FilterNumbers';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
         <Table />
       </ProviderPlanets>
     </div>
-
   );
 }
 export default App;

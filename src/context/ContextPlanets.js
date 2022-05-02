@@ -38,7 +38,7 @@ export const ProviderPlanets = ({ children }) => {
         ));
         break;
       default:
-        console.log('não foi selecionado filtro numérico');
+        console.log('não foi selecionado nenhum filtro numérico');
         break;
       }
     });
@@ -67,6 +67,6 @@ export const ProviderPlanets = ({ children }) => {
 };
 
 ProviderPlanets.propTypes = {
-  children: PropTypes.shape({}).isRequired,
+  children: PropTypes.node.isRequired,
 };
 export default ContextPlanets;
